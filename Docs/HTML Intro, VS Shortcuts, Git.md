@@ -1,5 +1,4 @@
-# Week 2
-
+# HTML Intro, VS Shortcuts, Git
 ## Notes about design
 - Navigation
   - conventions

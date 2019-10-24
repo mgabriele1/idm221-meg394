@@ -1,0 +1,130 @@
+# Links, Images, Structure
+## Links
+- index.html
+  - domain.com (no other links or folders)
+  - file sets up home page
+  - fill in html autofill, set up to be home page
+  - drag copy into each folder and subfolder (books, music, etc)
+  - lets you view and open the file in each folder and rename for page 
+- anchors
+  - let you move from one page to another on the web
+- <b> anchor tag </b>
+  - < a href="">LINK NAME</ a> can continue text in a sentence
+    - user sees "LINK NAME can continue..."
+  - href is attribute
+  - in quotes is URL for page
+  - absolute path - leaves our server and takes you somwhere else
+- linking to files within server
+  - can link to files within same folder or files in other folder
+- linking to file in same folder
+  - put file name in href="file.file"
+  - relative URL
+- linking to file in lower folder
+  - creative relative path
+  - tell browser how to get from A to B
+  - href="folder/file.file"
+- <b> linking to file in higher folder </b>
+  - going up a 
+  - ../ takes you up 1 folder
+    - can go up multiple levels by layering ../../
+  - href="../folder/file.file"
+- <b> Target attribute </b>
+  - < a href="" target="_blank_"> name
+  - _blank ensures when you open it you always get a new window
+- links are underlined and blue by default
+- visited links are purple by default
+- want text to clearly indicate function of link
+- <b> ID attribute </b>
+  - linking to different location on same page
+  - < p id="">
+  - ID must be unique for each element
+  - gives a way to identify one particular page element
+  - create an anchor to go to section
+    - < a href"#pagesection"> page section < /a>
+  - use "#" before ID to link to other sections in the page
+---
+## Lists
+- <b>ordered lists</b>
+  - < ol> 
+    - < li> </ li>
+  - < /ol>
+- <b>unordered lists</b>
+  - < ul> 
+    - < li> </ li>
+  - < /ul>
+- can nest lists as many levels as you want
+- can change numbering format for ordered
+- <b> definition list </b>
+  - < dl> 
+    - < dt> definition term </ dt>
+    - < dd> definition </ dd>
+  - < /dl>
+- emmet list shortcut
+  - ul>li*3
+---
+## Images
+- <b> SELF CLOSING TAG</b>
+  - close with space />
+- <b>have to optimize images for delivery on web</b>
+- image tag has two required attributes
+  - < img src="path to image" alt="describes image" />
+- <b> types of images that can be displayed on web </b>
+  - JPG
+    - used for images with a lot of color
+    - fills in transparency with white
+    - camera image
+  - GIF
+    - line art, transparency
+    - less common
+  - PNG
+    - shows transparency
+    - larger file size
+    - logo, graphic
+  - SVG
+    - vector based graphic for web
+  - WEBP
+    - high quality format, small file size
+- <b>prepping web images in photoshop</b>
+  - open image size window
+  - <b>resolution = 72 </b>
+    - change first
+  - resize image to max size you need
+    - cuts down file size
+  - dont override original version, save copy
+  - save image as correct file type for display
+  - <b>for thumbnails - save smaller version of image </b>
+- <b>file > export > save for web (legacy)</b>
+    - new dialog box opens
+    - choose file format (high)
+    - work with quality slider and file size (bottom left)
+    - find spot where photo begins to look bad and go right above it
+  - <b>want best quality & smallest file size</b>
+- putting images in on page
+  - saved in correct folders after optimizing
+  - use image tag
+- <b> non optimized images do NOT go in repo </b>
+  - only processed images
+---
+## Page Structure
+- div
+  - < div id="header"> </ div>
+  - < div id="main"> </ div>
+  - < div id="footer"> </ div>
+- <b>div has no value - just a container</b>
+  - automatically adds line break after itself
+  - box will be as wide as possible and as tall as the content
+  - fill the div with content, style, etc
+- span
+  - < span id=""> </ span>
+    - arbitrary container
+    - takes up as little space as possible
+- HTML 5
+  - has other elements that help with page structure
+- Presentation also has notes on how to make tables, etc
+### <b> HTML 5 Page Structure </b>
+- < header> </ header>
+- < main> </ main>
+- < nav> navigation </ nav>
+- etc... (link in presentation)
+  - https://webplatform.github.io/docs/guides/html_structural_elements/
+- <b>use HTML elements when you can </b>
