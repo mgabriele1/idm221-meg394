@@ -98,6 +98,12 @@
 - also allows you to change the info and see it changing on site in real time
   - non destructive
   - refresh page and all changes will disappear 
+### Normalizing browser
+- normalize
+  - can link normalize sheet BEFORE style sheet
+  - can import normalize sheet into style sheet
+- mobile device icon in browser code
+  - responsive design mode for mobile size
 
 
 
