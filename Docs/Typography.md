@@ -50,10 +50,15 @@
   - can specify just the letters you want to use
     - minimizes file size that needs to be downloaded
 - <b> have to do process for every style and weight font comes in </b>
-  - variable fonts are one file that has all weights and styles in it
   - an entire new font family function needs to be made for every new weight and style
   - at the bottom of font family fuciton need to add "font-weight" and "font-style"
 - browser needs woff and woff2
+- variable fonts are one file that has all weights and styles in it
+  - one line for source
+  - format
+  - font weight: 1 999
+  - font style: normla
+  - <b> style sheet will come with font - dont have to type it out </b>
 ---
 ## Font Size
 - 12px is a set font 
