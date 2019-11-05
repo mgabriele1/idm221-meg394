@@ -7,8 +7,13 @@
 - em, ems, relative, 1em = current font size
   - based on font size of parent container
 - %, percent, relative, relative to current size
-- vw, viewport, width, relative to viewport
-- vh, viewport, height, relative to viewport
+- vw, viewport, <b><u>width</u></b>, relative to viewport
+    - each viewport unit represents 1% of the available viewport
+    - no matter how wide browser is 50vw will be 50% of availabke viewport
+    - does not care about parent - cares about viewport
+- vh, viewport, <b><u>height</u></b>, relative to viewport
+    - same as above for viewport height
+- ch, based on characters
 ---
 - relative units account for different browser sizes
 - absolute units set a consistent size between browsers
