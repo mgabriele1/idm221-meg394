@@ -49,6 +49,8 @@
 ### Overflow
 - what the text that doesn't fit in the box will do
 - scroll, hidden, etc
+- overflow: auto
+    - when something doesn't look the way you want it to
 ---
 ## Margins, Border, Padding
 Margins 
