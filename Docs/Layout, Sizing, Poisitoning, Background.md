@@ -46,6 +46,9 @@
     - min-width:
     - mad-width:
     - lets you set width that can translate between devices
+### Overflow
+- what the text that doesn't fit in the box will do
+- scroll, hidden, etc
 ---
 ## Margins, Border, Padding
 Margins 

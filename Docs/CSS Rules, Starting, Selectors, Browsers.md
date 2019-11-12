@@ -104,8 +104,11 @@
   - can import normalize sheet into style sheet
 - mobile device icon in browser code
   - responsive design mode for mobile size
-
-
+---
+## Variables
+- html{ --backgroundcolor: #hexcode}
+- can then set: background-color: --backgroundcolor
+- whenever you want to make a change only have to do it once in code and it will change everywhere there is a variable
 
 
 
