@@ -20,6 +20,7 @@
 ### Relative
 - evrything else stays in normal flow exactly as they are
 - lets you position an element relative to bounding box
+- top: -2rem moves up 2 rem
 ### Absolute
 - takes element out of normal flow
 - everything on the page acts like the element isn't there
