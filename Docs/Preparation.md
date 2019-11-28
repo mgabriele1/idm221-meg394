@@ -36,5 +36,5 @@ https://meg394.myportfolio.com/
  - meg394@drexel.edu
  - 2154782169
 ## My resume
- - I attached my most current resume PDF along with this file. It needs a little updating.
+ <a href=../../../Misc/RelevantLifeThings/Resume/NewResume.pdf> Resume </a>
  
