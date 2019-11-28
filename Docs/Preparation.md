@@ -36,5 +36,5 @@ https://meg394.myportfolio.com/
  - meg394@drexel.edu
  - 2154782169
 ## My resume
- <a href=../../../Misc/RelevantLifeThings/Resume/NewResume.pdf> Resume </a>
+ <a href= Resume.pdf> Resume </a>
  
