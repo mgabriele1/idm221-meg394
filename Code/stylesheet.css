@@ -1,9 +1,115 @@
+/* border box, remove default padding and margin */
 * {
-    background: white;
-    color: black;
-    font-family: source-sans-pro;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-@font-face {
-    font-family: source-sans-pro;
-    src: url(SourceSansPro-Light.otf)
+/* graphic edge to edge */
+body, html {
+    margin:0;
+    padding:0;
+  }
+/* background gradient, font, font color, uppercase */
+body {
+    background-image: linear-gradient(#141414, #1D1D1D, #7B7A7A);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #DFDFDF;
+    text-transform: uppercase;
 }
+/* background for work page*/
+body.work, body.imageview {
+    background-image: url(../Graphics/Optimized/HeaderDrip.png), linear-gradient(#141414, #1D1D1D, #7B7A7A);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* drip graphic */
+div.image {
+    width: 100%
+/* text, logo, and link - size, alignment, padding*/
+}
+h1 {
+    font-size: 1.5625rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 0 .2rem;
+}
+a.work {
+    color: #DFDFDF;
+    font-weight: 300;
+    font-size: .9375rem;
+    background-color: #101010;
+    padding: .5rem 1.5rem;
+    border-radius: .625rem;
+    box-shadow: 0 .3rem .5rem rgb(0,0,0,.16);
+    text-decoration: none;
+}
+.nav a {
+    color: #DFDFDF;
+    font-weight: 300;
+    font-size: .9375rem;
+    box-shadow: 0 .3rem .5rem rgb(0,0,0,.16);
+    text-decoration: none;
+    margin: 1rem;
+}
+a.current {
+    font-weight: 600;
+}
+p {
+    font-size: .9375rem;
+    font-weight: 300;
+    text-align: left;
+}
+p.mel {
+    font-size: 1.25rem;
+}
+p.mel, p.contact, div.work, div.bottomlogo, div.logo, div.nav {
+    text-align: center;
+}
+div.bottomlogo{
+    padding: 1rem;
+}
+div.logo {
+    margin: .5rem auto;
+}
+/* margins and padding */
+div.mel, div.work, div.about, div.contact{
+    margin: 1.875rem;
+}
+/* art image view */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* 4 columns that sit next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: 0 .3rem .5rem rgb(0,0,0,.16);
+  }
+  
+/* Responsive layout - makes 2 column-layout instead of 2 columns */
+@media screen and (max-width: 320px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 250px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
