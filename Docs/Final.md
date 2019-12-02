@@ -12,6 +12,15 @@ blackboard final project
         - lose repeatedly for same error
     - warnings ok
     - IMAGES NEED ALT TAGS
+    - Files and Sizes
+        - network to see files downloaded
+        - 200 means sucessfully downloaded
+        - 404 means error
+        - Image sizes
+            - anythign arouns 500kb too bif
+            - timeline on far right shows how long it takes to load
+                - green = good
+                - organge/ red = bad
     - follow best practices
         - lowercase filenames
         - no spaces
