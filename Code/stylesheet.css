@@ -72,7 +72,7 @@ div.logo {
     margin: .5rem auto;
 }
 /* margins and padding */
-div.mel, div.work, div.about, div.contact, {
+div.mel, div.work, div.about, div.contact {
     margin: 2rem;
 }
 .main img, .images img, .videos video {

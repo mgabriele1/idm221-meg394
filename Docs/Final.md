@@ -10,6 +10,7 @@ blackboard final project
     - linter
     - no errors
         - lose repeatedly for same error
+        - w3c validator
     - warnings ok
     - IMAGES NEED ALT TAGS
     - Files and Sizes
