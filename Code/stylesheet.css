@@ -4,6 +4,14 @@
     padding: 0;
     margin: 0;
 }
+iframe {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    line-height: 0;
+    transform: scale(0.7);
+}
 /* graphic edge to edge */
 body, html {
     margin:0;
@@ -21,7 +29,7 @@ body {
 }
 /* background for work page*/
 body.work, body.imageview {
-    background-image: url(../Graphics/Optimized/HeaderDrip.png), linear-gradient(#141414, #1D1D1D, #7B7A7A);
+    background-image: url(../graphics/headerback.png), linear-gradient(#141414, #1D1D1D, #7B7A7A);
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -29,6 +37,18 @@ body.work, body.imageview {
 /* size, alignment, padding*/
 h1 {
     font-size: 1.5625rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 0 .2rem;
+}
+h2 {
+    font-size: 1.4375rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 0 .2rem;
+}
+h3 {
+    font-size: 1.125rem;
     font-weight: 300;
     text-align: center;
     padding: 0 0 .2rem;
@@ -70,6 +90,7 @@ div.bottomlogo{
 }
 div.logo {
     margin: .5rem auto;
+    height: auto;
 }
 /* margins and padding */
 div.mel, div.work, div.about, div.contact {
@@ -93,6 +114,25 @@ video.shrink {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+hr {
+    display: block;
+    margin: 1rem auto;
+    border-width: 10px;
+    color: #DFDFDF;
+    opacity: 70%;
+}
+hr.left {
+    margin: 1rem auto;
+    margin-left: 0;
+    border-width: 1px;
+    max-width: 70%;
+}
+hr.right {
+    margin: 1rem auto;
+    margin-right: 0;
+    border-width: 1px;
+    max-width: 70%;
 }
 /* art image view */
 .row {
