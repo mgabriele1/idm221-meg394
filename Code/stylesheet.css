@@ -238,7 +238,7 @@ a.prototype {
 div.pvpages {
     background-color:rgb(46, 46, 46);
     box-shadow: 0 .3rem .5rem rgb(0,0,0,.16);
-    margin: 1rem 0;
+    margin: 3rem 0 1rem;
     padding: 1rem 0;
 }
 .pvpages img {
@@ -254,4 +254,17 @@ div.pvpages {
     white-space: nowrap;
     text-align: center;
     padding: 1rem 0;
+}
+.ss img {
+    width: 80%;
+    height: auto;
+    margin: .8rem auto;
+}
+div.ss {
+    text-align: center;
+}
+.poster {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0 2.5rem;
 }
