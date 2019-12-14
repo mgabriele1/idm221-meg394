@@ -238,12 +238,14 @@ a.prototype {
 div.pvpages {
     background-color:rgb(46, 46, 46);
     box-shadow: 0 .3rem .5rem rgb(0,0,0,.16);
-    margin: 3rem 0 1rem;
+    border-radius: .5rem;
+    margin: 3rem .5rem 1rem .5rem;
     padding: 1rem 0;
 }
 .pvpages img {
-    width: 100%;
+    width: 90%;
     height: auto;
+    text-align: center;
 }
 .pvimg img {
     display: inline-block;
