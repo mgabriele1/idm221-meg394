@@ -38,3 +38,5 @@
 - hsl (hue-degrees, saturation%, lightness)
 - hsla (hue-degrees, saturation%, lightness, opacity)
 
+- :icecream: Melissa Gabriele
+
